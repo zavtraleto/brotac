@@ -1,0 +1,8 @@
+html, body { margin: 0; height: 100%; background: #0e1116; overflow: hidden; }
+#app { position: fixed; inset: 0; }
+#app canvas { display: block; }
+#hud {
+  position: fixed; top: 12px; left: 12px;
+  font: 12px/1.4 ui-monospace, Consolas, monospace;
+  color: #9aa4b2; pointer-events: none; user-select: none;
+}
